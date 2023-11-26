@@ -7,6 +7,7 @@ const mongoose = require("mongoose");
 // Connect MongoDB at default port = 27017
 mongoose.connect(
   "mongodb://localhost:27017/crud_db",
+
   {
     useNewUrlParser: true,
     useCreateIndex: true,
